@@ -1,0 +1,35 @@
+Ejercicio 1
+
+Variables
+
+int edad
+String mesNacimiento
+double notaColegio
+boolean viveCerca
+String nombre
+String carrera
+
+Constante
+boolean esNuevo
+int cobroCredito
+int numeroCuatri
+
+-----------------------------
+
+Ejericio 2
+
+double salarioBase
+double anualidad
+double dedicacion
+double salarioNeto
+double salarioTotal
+double montoRenta
+double montoCCSS
+
+double porRenta = 0.05
+double porCCSS = 0.03
+
+salarioTotal = salarioBase + anualidad + dedicacion
+montoRenta = salarioTotal * porRenta
+montoCCSS = salarioTotal * porCCSS
+salarioNeto = salarioTotal - montoRenta - montoCCSS
