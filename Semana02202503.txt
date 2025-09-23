@@ -33,3 +33,56 @@ salarioTotal = salarioBase + anualidad + dedicacion
 montoRenta = salarioTotal * porRenta
 montoCCSS = salarioTotal * porCCSS
 salarioNeto = salarioTotal - montoRenta - montoCCSS
+
+
+-------------------------------
+
+Ejercicio 3
+
+int edad
+int pasaje
+
+int tarifaBasica = 1000
+
+edad > 63
+	pasaje = tarifaBasica - 900
+edad < 5
+	pasaje = 0
+edad > 5 y edad <= 63
+	pasaje = tarifaBasica
+
+!(edad > 63) -> edad <= 63
+!(edad == 5) -> edad != 5
+!(edad <= 20) -> edad > 20
+!(edad > 5 && edad <= 63) -> edad <=5 || edad > 63
+!edad > 5 && edad <= 63 -> edad <=5 && edad <= 63
+
+------------------------------
+Ejercicio 4
+
+int salarioTotal
+int aniosLaborado
+int evaluacion
+int anioIngreso
+int bono
+
+salarioTotal > 100000 && evaluacion > 80
+	bono = 5000 * aniosLaborado	
+
+salarioTotal < 50000 || (anioIngreso > 2022 && evaluacion > 80)
+	bono = 15000
+
+evaluacion < 80
+	bono = 0
+
+
+
+
+
+
+
+
+
+
+
+

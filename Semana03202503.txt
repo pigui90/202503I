@@ -1,0 +1,101 @@
+Ejercicio 1
+INICIO
+int numero1
+int numero2
+int resultado
+
+Escribir "Digite un numero"
+Leer numero1
+
+Escribir "Digite otro numero"
+Leer numero2
+
+resultado = numero1 + numero2
+
+Escribir "La suma de los numeros es " + resultado 
+
+FIN
+
+Ejercicio 2
+
+INICIO
+
+int numero
+int resultado
+int contador
+
+Escribir "Digite un numero para saber la tabla de multiplicar"
+Leer numero
+
+contador = 1
+
+para(contador hasta 10 aumente 1) hacer
+	resultado = numero * contador
+	Escribir "Resultado es " + resultado
+Fin-Para
+
+
+FIN
+
+
+Ejercicio 3
+
+INICIO
+
+double peso
+int edad
+
+Escribir "Indique su peso real"
+Leer peso
+
+Escribir "Indique su edad de verdad"
+Leer edad
+
+Escribir "Su peso aja, es: " + peso + " y su edad, según usted es: " + edad
+
+FIN
+
+
+Ejercicio 4
+
+INICIO
+
+double radio
+double pi = 3.1416
+double area
+
+Escribir "¿Cual es el radio del circulo?"
+Leer radio
+
+area = pi * radio * radio
+
+Escribir "El área del circulo es " + area
+
+
+FIN
+
+Ejercicio 5
+INICIO 
+
+int numero
+
+Escribir "Indique un numero para saber si es positivo o no"
+Leer numero
+
+Si (numero > 0) entonces
+	Escribir "El numero es positivo"
+Sino
+	Si (numero < 0) entonces
+		Escribir "El numero es negativo "
+	Fin-Si
+Fin-Si
+
+FIN
+
+
+
+
+
+
+
+
