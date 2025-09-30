@@ -1,0 +1,137 @@
+Ejercicio 1
+
+INICIO
+
+int numeroA
+int numeroB
+int aux
+
+Escribir "Digite un numero"
+Leer numeroA
+
+Escribir "Digite otro  numero"
+Leer numeroB
+
+aux = numeroA
+numeroA = numeroB
+numeroB = aux
+
+Escribir "El valor de A es: " + numeroA
+Escribir "El valor de B es: " + numeroB 
+
+FIN
+
+Ejercicio 2
+
+INICIO
+
+int numero1
+int numero2
+int numero3
+int resultado
+
+Escribir "Indique el primer numero"
+Leer numero1
+
+Escribir "Indique el segundo numero"
+Leer numero2
+
+Escribir "Indique el tercer numero"
+Leer numero3
+
+Si (numero1 < 0) entonces
+	resultado = numero1 * numero2 * numero3
+Sino
+	resultado = numero1 + numero2 + numero3
+Fin-Si
+Escribir "El resultado final es " + resultado
+
+FIN
+
+Ejercicio 3
+
+INICIO
+
+int numero = 1
+int cuadrado
+
+para (numero hasta 9 aumente 1)
+	cuadrado  = numero * numero
+	Escribir "El cuadrado es " + cuadrado
+fin-para
+
+FIN
+
+Ejercicio 4
+
+INICIO
+
+String palabra
+
+haga
+	Escribir "Ingrese una palabra"
+	Leer palabra
+Mientras(palabra != "SALIR")
+FIN
+Ejercicio 5
+
+INICIO 
+
+String clave
+String valorOculto = "eureka"
+int intento = 1
+haga
+	Escribir "Ingrese la contraseña"
+	Leer clave
+	intento = intento + 1
+
+Mientras(clave != valorOculto && intento <= 3)
+Si (intento > 3) entonces
+	Escribir "Intentos agotados"
+Fin-Si
+
+FIN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
