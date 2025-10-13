@@ -1,0 +1,115 @@
+Ejercicio 1
+
+INICIO 
+
+double celsius
+double fahrenheit
+
+Escribir "Indique los grados celsius"
+Leer celsius
+
+fahrenheit = (celsius * 9 / 5) + 32
+
+Escribir "La temperatura en fahrenheit es " + fahrenheit
+FIN
+Ejercicio 2
+
+INICIO
+
+double numero1
+double numero2
+String operación
+double resultado
+
+Escribir "Ingrese un numero"
+Leer numero1
+Escribir "Ingrese otro numero"
+Leer numero2
+
+Escribir "Escriba que operación quiere (+ , - , * , /)"
+Leer operacion
+
+Segun operacion 
+
+caso "+":
+	resultado = numero1 + numero2
+
+caso "-":
+	resultado = numero1 - numero2
+caso "/":
+	resultado = numero1 / numero2
+  
+caso "*":
+	resultado = numero1 * numero2
+
+Fin-Según
+
+Escribir "el resultado es " + resultado
+
+FIN
+
+
+Ejercicio 3
+
+INICIO
+
+int numero
+int factorial = 1
+
+Escribir "Indique un numero para saber el factorial"
+Leer numero
+
+para(numero hasta 1 disminuye 1) haga
+	factorial = numero * factorial
+fin-para
+
+
+FIN
+
+Ejercicio 4
+
+INICIO
+
+int numero
+int contador = 0
+int i = 1
+
+Escribir "Digame un numero para saber si es primo"
+Leer numero
+
+para (i hasta numero aumente 1)
+	Si (numero % i == 0)entonces
+		contador = contador + 1
+	Fin-Si
+fin-para
+
+Si (contador > 2)
+	Escribir "El numero no es primo"
+Sino
+	Escribir "El numero es primo"
+Fin-Si
+
+FIN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
